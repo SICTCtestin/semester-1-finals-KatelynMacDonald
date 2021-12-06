@@ -16,7 +16,7 @@ public class Encrypted {
         //try
 		try {
             //opens the file from the pathway              "This here" \/
-			reader = new BufferedReader(new FileReader("C:\\Users\\padawan\\Documents\\Semester1Final\\JavaPasswordManager\\decodedData.txt"));
+			reader = new BufferedReader(new FileReader("decodedData.txt"));
 			String line = reader.readLine();
             //while line  doesnt equal null
 			while (line != null) {
@@ -40,9 +40,9 @@ public class Encrypted {
         }   
         
         BufferWritter.writeString(encodedFileLines.toString().replace("[", "").replace("]", ""),"encodedData.txt");
+        BufferWritter.saveAndClose("decodedData.txt");
         // create object of Path
-        Path path
-            = Paths.get("C:\\Users\\padawan\\Documents\\Semester1Final\\JavaPasswordManager\\decodedData.txt");
+        Path path = Paths.get("encodedData.txt");
   
         // delete File
         try {
