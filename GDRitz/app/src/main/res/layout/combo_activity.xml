@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gdcombos" />
+
+            <TextView
+                android:id="@+id/sandwichDes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:text="Each of our combos come with a side order of fries and a medium drink or you may upgrade it to a Basket Combo to include a side of coleslaw."
+                android:textAlignment="center"
+                android:textColor="#433A3A"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/sandwich2Des"
+                    android:layout_width="169dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/hamburgerPic"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:paddingRight="10dp"
+                    app:srcCompat="@drawable/combo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/oneBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/oneTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMBO #1"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/oneDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cheeseburger, Fries and a Medium Drink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/twoBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/twoTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMBO #2"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/twoDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Grilled Chicken Sandwich, Fries and a Medium Drink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/threeBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/threeTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMBO #3"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/threeDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Double Ritz w/ Cheese, Fries and a Medium Drink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/fourBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/fourTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMBO #4"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fourDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hot Dog, Fries and a Medium Drink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/fiveBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/fiveTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RITZ COMBO BASKET"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fiveDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Double Ritz w/ Cheese, Fries, Cole Slaw and a Medium Drink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/sixBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/sixTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COOL DEAL"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sixDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hamburger, Fries, Medium Drink and a Scoop of Ice Cream" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/sevenBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/sevenTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ITZY RITZY FOR KIDS"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sevenDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choice of a Hamburger, Cheeseburger, Grilled Cheese or Hot Dog, Small Fry, Small Drink and a Junior Scoop of Ice Cream." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#08600A"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="250dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/iceCreamBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Ice Cream"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/combosBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Combo Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/sandwichBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Sandwich Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/hotDogsBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Hot Dogs Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/chiliBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Chili Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/specialBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Specialties Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/saladBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Salads Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/checkOutBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Go To Cheackout"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

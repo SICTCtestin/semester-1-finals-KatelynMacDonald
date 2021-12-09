@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gdsandwiches"/>
+
+            <TextView
+                android:id="@+id/sandwichDes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:text="Our sandwiches are prepared to order on a fresh baked bun with your choice of toppings. (No charge for: Mayonnaise, Ketchup, Pickles, Onions, Lettuce, or Mustard. Cheese, Tomatoes, and Bacon are extra.)"
+                android:textAlignment="center"
+                android:textColor="#433A3A"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/sandwich2Des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Our famous Rityz's all beef hamburgers are made using the freshest, lean ground beef thin seared and shaped on the grill. It's the thin edges and tender, juicy center served on a freshly toasted bun that makes Ritzy's differen from any other restaurant!"
+                    android:textAlignment="center"
+                    android:textColor="#FF0000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/hamburgerPic"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:paddingRight="10dp"
+                    app:srcCompat="@drawable/cheeseburger" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/cBurgerBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/cBurger"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hamburger / Cheeseburger"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cBurgerDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We use lean, freshly ground beef and 'sear' our hamburgers -- a special technique where we press each burger flat on a very hot grill to seal in natural beef flavor and juices." />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCBurgerT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tomato" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCBurgerL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lettuces" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCBurgerO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Onions" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCBurgerC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Cheese" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCBurgerP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pickle" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/dRitzBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/dRitz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Double Ritz"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dRitzDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enjoy twice the amount of beef with the same hand-shaped and seared patties as our Single Ritz." />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBoxDRitzT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tomato" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxDRitzL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lettuces" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxDRitzO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Onions" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxDRitzC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Cheese" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxDRitzP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pickle" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/fSandwichBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/fSandwich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fish Sandwich"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fSandwichDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Delicious deep fried white fish, breaded and cooked to perfection on a toasted bun." />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBoxFSandwichT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tomato" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxFSandwichL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lettuces" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxFSandwichO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Onions" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxFSandwichC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Cheese" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxFSandwichP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pickle" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/cGrillBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/cGrill"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Grill"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cGrillDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Our Chicken Grill is a real chicken breast left unbreaded, marinated and grilled to a light golden brown and served on a wheat bun." />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCGrillT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tomato" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCGrillL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lettuces" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCGrillO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Onions" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCGrillC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Cheese" />
+
+                        <CheckBox
+                            android:id="@+id/checkBoxCGrillP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pickle" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/pBjBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/pBj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="World's Best PB J"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pBjDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Two giant pieces of thick bread, creamy peanut butter, strawberry jelly, peanuts and fresh strawberries" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#08600A"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="250dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/iceCreamBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Ice Cream"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/combosBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Combo Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/sandwichBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Sandwich Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/hotDogsBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Hot Dogs Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/chiliBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Chili Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/specialBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Specialties Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/saladBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Salads Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/checkOutBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Go To Cheackout"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

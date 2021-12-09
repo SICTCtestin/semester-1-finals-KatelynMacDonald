@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/iceCreamTXT"
+        android:layout_width="405dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        android:text="Ice Cream"
+        android:textAlignment="center"
+        android:textColor="#1B33B5"
+        android:textSize="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sizeTXT"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="332dp"
+        android:text="Size"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/typeTXT"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp"
+        android:text="Type"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/sizeRG"
+        android:layout_width="583dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="396dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/singleRB"
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:text="Single Scoop/Small"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/doubleRB"
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:text="Double Scoop/Medium"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/tripleRB"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Triple Scoop/Large"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/scoopsCB"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="168dp"
+        android:text="Scoops"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/shakeCB"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="168dp"
+        android:text="Shake"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/maltCB"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="168dp"
+        android:text="Malt"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/bananaSplitCB"
+        android:layout_width="179dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="240dp"
+        android:text="Banana Split"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/pintCB"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="240dp"
+        android:text="Pint"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/quartCB"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="240dp"
+        android:text="Quart"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flavorTXT"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="508dp"
+        android:text="Flavor"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/vanillaCB"
+        android:layout_width="135dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="564dp"
+        android:text="Vanilla"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/cookieDoughCB"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chocolateCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:text="Chocolate"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/strawberryCB"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vanillaCB" />
+
+    <CheckBox
+        android:id="@+id/strawberryCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="8dp"
+        android:text="Strawberry"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/ChocolateChipCB"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cookieDoughCB" />
+
+    <CheckBox
+        android:id="@+id/cookieDoughCB"
+        android:layout_width="135dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="552dp"
+        android:text="Cookie Dough"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/birthdayCB"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/birthdayCB"
+        android:layout_width="135dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="384dp"
+        android:layout_marginTop="552dp"
+        android:text="Birthday Cake"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/pBCB"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/pBCB"
+        android:layout_width="135dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="552dp"
+        android:text="Peanut Butter"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ChocolateChipCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:text="Chocolate Chip"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pBCB" />
+
+    <CheckBox
+        android:id="@+id/butterPecanCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="148dp"
+        android:text="Butter Pecan"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butterscotchCB"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chocolateCB"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <CheckBox
+        android:id="@+id/butterscotchCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="148dp"
+        android:text="Butterscotch"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/carmelCB"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strawberryCB"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <CheckBox
+        android:id="@+id/carmelCB"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Carmel"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChocolateChipCB" />
+
+    <Button
+        android:id="@+id/addToCartBTN"
+        android:layout_width="170dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="28dp"
+        android:text="Add to Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/checkoutBTN"
+        android:layout_width="155dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="28dp"
+        android:text="Checkout Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menuBTN"
+        android:layout_width="154dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="28dp"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="227dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icecream" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

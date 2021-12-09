@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gdsalad"
+                tools:srcCompat="@drawable/gdsalad" />
+
+            <TextView
+                android:id="@+id/sandwichDes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:textColor="#433A3A"
+                android:text="We prepare our salads fresh every day and refrigerate them until they are served.Each salad comes your choice of dressing: Buttermilk Ranch, Fat Free Ranch, Light Italian, Fat Free California French, Thousand Island, and Dijon Honey Mustard."
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/sandwich2Des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:id="@+id/hamburgerPic"
+                    app:srcCompat="@drawable/salad"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/cGardenBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/cGarden"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choice Garden Salad"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cGardenDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Includes a crisp combination of lettuce, tomatoes, hard-boiled eggs, and freshly-grated cheddar cheese topped with seasoned croutons and your choice of dressing." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/dGardenBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/dGarden"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deluxe Garden Salad"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dGardenDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Includes same ingredients as our choice garden salad, but we add real bacon bits and chunks of chicken breast. It's just a little more filling for truly hungry salad fans." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/sSaladBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/sSalad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Side Salad"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sSaladDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Includes fresh lettuce topped with freshly-grated cheddar cheese, tomatoes, and seasoned croutons. It's a perfect complement to any of our sandwiches." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/tSaladBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tSalad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Taco Salad"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tSaladDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We make a platter of tortilla chips topped with our famous chili meat, lettuce, diced tomatoes, and shredded cheese with the choice of sour cream, hot sauce, or taco sauce on the side." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <Button
+                    android:id="@+id/cSaladBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/cSalad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Salad"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cSaladDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Served on a fresh bed of romaine lettuce or served on a crisp, wheat bun." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#08600A"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="250dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/iceCreamBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Ice Cream"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/combosBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Combo Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/sandwichBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Sandwich Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/hotDogsBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Hot Dogs Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/chiliBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Chili Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/specialBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Specialties Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/saladBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Salads Menu"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+
+            <Button
+                android:id="@+id/checkOutBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C60D0D"
+                android:text="Go To Cheackout"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
