@@ -1,0 +1,643 @@
+
+
+/*https://www.w3docs.com/snippets/html/how-to-add-border-to-html-table.html*/
+table{
+    
+    border-color: #142023;
+    border-width: 70px;
+    border-style: ridge;
+    border-width: 20px;
+    
+}
+td{
+    padding: 10px;
+    border: 5px solid #142023;
+}
+th{
+    padding: 10px;
+    border: 20px groove #142023;
+    
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+
+#herojobs{
+    height: 300px;
+    background-image: url("javaMedia/coffeecup.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+form{
+    display:flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width:80%;
+
+}
+
+audio{
+    display: block;
+    margin-top: 1em;
+}
+
+input,textarea{margin-bottom: .5em;}
+
+#item{
+    background-color: #faf9f7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+    display:inline-block
+    
+}
+
+#item img{
+    float: right;
+}
+
+#herocouch{
+    height: 300px;
+    background-image: url("javaMedia/herocouch.jpg");
+    background-size: 100% 100%;
+}
+
+
+@media(min-width:1024px){
+    body{
+        background-image: url("javaMedia/fadedroad50.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #221811; /* ; stand for the end of a statement */
+        font-family:Tahoma, Arial, sans-serif;
+    }
+    header{
+        background-color: #00ebb8;
+        background-image: url("pictures/NewLogo.png");
+        background-repeat: no-repeat;
+        color: #142023;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 240px;
+    
+    
+    }
+    header a:link{
+        color: #231814;
+        
+    }
+    header a:visited{
+        color: #231814;
+    }
+    header a:hover{
+        color: #fef6c2;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        color: #8c3826;
+    }
+    h3{
+        color: #8c3826;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
+        /*float: left;
+        clear: none;*/
+    
+    }
+    dt{
+        color: #8c3826;
+    }
+    nav{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 200px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {
+        color: #fef6c2;
+    }
+    nav a:visited{
+        color: #d2b48c;
+    }
+    nav a:hover{
+        color: #cc9933;
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    .floatLeft{
+        float: left;
+        padding-right: 2em;
+        padding-bottom: 2em;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: 2px;
+        border-color: #7aa7e9;
+    }
+    #wrapper{
+        margin-right: auto;
+        margin-left: auto; /* will help center the text on the screen*/
+        min-width: 900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px  ;
+        box-sizing: border-box;
+        background-color: #0018E1;
+        padding: 0;
+    }
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        margin-left: 200px;
+        display: block;
+        background-color: #b8d4d4;
+        overflow: auto;
+    }
+    main h2{
+        padding-left: 3em;
+        padding-right: 2em;
+    
+    }
+    main h3{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main h4{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main p{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main div{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main dl{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+    .onethird{
+        float: left;
+        width: 33%;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 500px;
+        background-size: 100% 100%;
+        background-image:url("pictures/BanderForPres.png")
+    }
+    #abouthero{
+        height: 500px;
+        width: 250px;
+        float: right;
+        background-image:url("pictures/IronBander.PNG")
+    }
+    #volunteerhero{
+        height: 300px;
+        width: 300px;
+        float:right;
+        background-size: 100% 100%;
+        background-image:url("pictures/BuisnessBander.png")
+    }
+    #homemugs{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heromugs.jpg")
+    }
+    #homeguitar{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heroguitar.jpg")
+    }
+    form{
+        width:60%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 12em 1fr;
+        grid-gap: 1em; gap:1em;
+    }
+    #herojobs{
+        background-image:url("javaMedia/herojobs.jpg")
+    }
+}
+/* medium */
+@media(max-width:1024px){
+        body{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #221811; 
+            font-family:Tahoma, Arial, sans-serif;
+            }
+        header{
+            background-color: #00ebb8;
+            background-image: url("pictures/NewLogo.png");
+            background-repeat: no-repeat;
+            color: #231814;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 0px;
+            height: 128px;
+            text-align: center;
+            
+        }
+        header a:link{
+            color: #231814;
+        }
+        header a:visited{
+            color: #231814;
+        }
+        header a:hover{
+            color: #FEF6C2;
+        }
+        h1{
+            font-size: 3em;
+        }
+        h2{
+            color: #8C3826;
+        }
+        h3{
+            color: #8C3826;
+        }
+        h4{
+            background-color: #d2b48c;
+            font-size: 1.2em;
+            padding-left: .5em;
+            padding-bottom: 0;
+            text-transform: uppercase;
+            border-bottom: black;
+        }
+        dt{
+            color: #8C3826;
+        }
+        nav{
+            text-align: center;  
+            font-size: 1.5em;
+            /* padding-top: 5px; */
+            /* padding-bottom: 5px; */
+            /* float: left; */
+            /* width: 200px; */
+        }
+        nav a{
+            text-decoration: none;}
+        nav a:link {
+            color: #FEF6C2;}
+        nav a:visited{
+            color: #D2B48C;}
+        nav a:hover{
+            color: #CC9933;}
+        nav ul{
+            display:flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        nav li{
+            border-bottom: none;
+        }
+        .floatLeft{
+            float: left;
+            padding-right: 2em;
+            padding-bottom: 2em;
+        }
+    
+        footer{
+            background-color: #D2B48C;
+            font-size: .60em;
+            text-align: center;
+            font-style: italic;
+            padding: 1em;
+            border-top: 2px;
+            border-color: #7aa7e9;
+        }
+        #wrapper{
+            margin-right: auto;
+            margin-left: auto; 
+            min-width: 900px;
+            max-width: 1280px;
+            box-shadow: 5px 5px  ;
+            box-sizing: border-box;
+            background-color: #0018E1;
+            padding: 0;
+        }
+        main{
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 2em;
+            padding-top: 0;
+            /* margin-left: 200px; */
+            display: block;
+            background-color: #b8d4d4;
+            overflow: auto;
+        }
+        main h2{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main h3{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main h4{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main p{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main div{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main ul{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        main dl{
+            padding-left: 3em;
+            padding-right: 2em;
+        }
+        .details{
+            padding-left: 20%;
+            padding-right: 20%;
+            overflow: auto;
+            display: flex;
+            flex-direction: row;
+            
+        
+        
+
+        }
+        .onethird{
+            float: left;
+            width: 33%;
+        }
+        img{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #homehero{
+            height: 300px;
+            background-size: 100% 100%;
+            background-image:url("pictures/BanderForPres.png")
+        }
+        #abouthero{
+            height: 500px;
+            width: 250px;
+            float: right;
+            background-image:url("pictures/IronBander.PNG")
+        }
+        #volunteerhero{
+            height: 200px;
+            width: 200px;
+            float:right;
+            background-size: 100% 100%;
+            background-image:url("pictures/BuisnessBander.png")
+        }
+        #homemugs{
+            height: 300px;
+            background-size: 100% 100%;
+            background-image:url("javaMedia/heromugs.jpg")
+        }
+        #homeguitar{
+            height: 300px;
+            background-size: 100% 100%;
+            background-image:url("javaMedia/heroguitar.jpg")
+        }
+        #flow{
+            display: flex;
+            flex-direction: column;
+        }
+        #mobile{
+            display: none;
+        }
+        #desktop{
+            display: inline;
+        }
+    }
+@media(max-width:600px){
+    body{
+    margin: 0;
+    background-color: #d2b48c;
+    color: #221811; /* ; stand for the end of a statement */
+    font-family:Tahoma, Arial, sans-serif;
+    }
+    header{
+        background-color: #00ebb8;
+        background-image: url("pictures/NewLogo.png");
+        background-repeat: no-repeat;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 105px;
+        height: 128px;
+
+
+    }
+    header a:link{
+        color: #231814;
+        
+    }
+    header a:visited{
+        color: #231814;
+    }
+    header a:hover{
+        color: #fef6c2;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        color: #8c3826;
+    }
+    h3{
+        color: #8c3826;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
+        /*float: left;
+        clear: none;*/
+
+    }
+    dt{
+        color: #8c3826;
+    }
+    nav{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {
+        color: #fef6c2;
+    }
+    nav a:visited{
+        color: #d2b48c;
+    }
+    nav a:hover{
+        color: #cc9933;
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+        flex-direction: column;
+        margin: 0;
+        font-size: 1.25em;
+    }
+    nav li{
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
+        border-bottom:solid 1px;
+        border-color: #D2B48C;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: 2px;
+        border-color: #7aa7e9;
+    }
+    #wrapper{
+        box-sizing: border-box;
+        background-color: #0018E1;
+        padding: 0;
+    }
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        display: block;
+        background-color: #b8d4d4;
+    }
+    main h2{
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+    main h3{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main h4{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main div{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main ul{
+        padding-left: 2em;
+    }
+    main dl{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+        
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("pictures/BanderForPres.png")
+    }
+    #abouthero{
+        height: 500px;
+        width: 250px;
+        float: right;
+        background-image:url("pictures/IronBander.PNG")
+    }
+    #volunteerhero{
+        height: 300px;
+        width: 300px;
+        float:right;
+        background-size: 100% 100%;
+        background-image:url("pictures/BuisnessBander.png")
+    }
+    #homemugs{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/threemugs.jpg")
+    }
+    
+    #homeguitar{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/guitar.jpg")
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+    
+}
